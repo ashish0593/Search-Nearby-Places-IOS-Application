@@ -26,6 +26,17 @@ request.region = mapView.region
 First we start with a simple search request. You will need to specify the text for the natural language search and an optional region in which the search will take place. As an example we will specify a region from a MKMapView.
 
 ```
+let request = MKLocalSearchRequest()
+request.naturalLanguageQuery = "Restaurants"
+request.region = mapView.region
+
+```
+
+# MKLocalSearchResponse
+
+Next we make a MKLocalSearch from our request. We will get our search response from the completion block when calling the startWithCompletionHandler: method. In the block we get back an array of MKMapItem and an NSError. Each MKMapItem contains information about the location such as name, phone number, url, and address information via the CLPlacemark property.
+
+```
 let search = MKLocalSearch(request: request)
 search.startWithCompletionHandler { response, error in
     guard let response = response else {
