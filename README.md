@@ -14,12 +14,6 @@ Maps contain a lot of information, so it’s natural for users to search for pla
 
 Have you ever wondered which restaurants were nearby? Apple's MapKit framework provides an easy way to lookup places via natural language search.
 
-```
-let request = MKLocalSearchRequest()
-request.naturalLanguageQuery = "Restaurants"
-request.region = mapView.region
-
-```
 
 # MKLocalSearchRequest
 
