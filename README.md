@@ -1,6 +1,6 @@
 # nearby-places-ios-application
 
-<a href="https://imgflip.com/gif/1z3l5m"><img src="https://i.imgflip.com/1z3l5m.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/1z3lsu"><img src="https://i.imgflip.com/1z3lsu.gif" title="made at imgflip.com"/></a>
 
 Search for places using MKLocalSearchRequest and display results with tableView
 
