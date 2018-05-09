@@ -44,3 +44,5 @@ search.startWithCompletionHandler { response, error in
 }
 
 ```
+
+# Read the complete tutorial for <a href="https://pocketcrunch.com/search-nearby-locations-swift-example-mklocalsearchrequest-and-uisearchcontroller/" rel="dofollow">Search Nearby Locations Swift</a>
