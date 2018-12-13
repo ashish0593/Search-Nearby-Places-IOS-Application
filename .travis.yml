@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: places.xcodeproj
-xcode_scheme: places
+xcode_scheme: placesTests
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
