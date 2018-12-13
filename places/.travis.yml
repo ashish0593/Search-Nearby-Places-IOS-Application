@@ -1,5 +1,4 @@
 language: objective-c
-osx_image: xcode6.4
 xcode_project: places.xcodeproj
 xcode_scheme: places
-xcode_sdk: iphonesimulator8.4
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
