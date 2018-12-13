@@ -9,7 +9,8 @@
 import UIKit
 import CoreData
 
-@UIApplicationMain
+ @available(iOS 10.0, *)
+ @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?

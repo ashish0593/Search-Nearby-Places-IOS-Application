@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode6.4
+xcode_project: places.xcodeproj
+xcode_scheme: places
+xcode_sdk: iphonesimulator8.4

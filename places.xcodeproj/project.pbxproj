@@ -16,6 +16,7 @@
 		758D111A1FB16119007A395E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D11191FB16119007A395E /* MainVC.swift */; };
 		758D111C1FB19A4E007A395E /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D111B1FB19A4E007A395E /* LocationSearchTable.swift */; };
 		75E146031FB225A600E6FC7F /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E146021FB225A600E6FC7F /* DetailedVC.swift */; };
+		75F1584521C30F79008D50ED /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 75F1584421C30F79008D50ED /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		758D11191FB16119007A395E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		758D111B1FB19A4E007A395E /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		75E146021FB225A600E6FC7F /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
+		75F1584421C30F79008D50ED /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				758D111B1FB19A4E007A395E /* LocationSearchTable.swift */,
 				75E146021FB225A600E6FC7F /* DetailedVC.swift */,
 				755971841FB38D4300FF4955 /* NearbyCell.swift */,
+				75F1584421C30F79008D50ED /* .travis.yml */,
 			);
 			path = places;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				758D11121FB15987007A395E /* LaunchScreen.storyboard in Resources */,
 				758D110F1FB15987007A395E /* Assets.xcassets in Resources */,
+				75F1584521C30F79008D50ED /* .travis.yml in Resources */,
 				758D110A1FB15987007A395E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MGLH8NP5FU;
 				INFOPLIST_FILE = places/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.ashu.places;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ashu.search.places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,8 +313,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MGLH8NP5FU;
 				INFOPLIST_FILE = places/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.ashu.places;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ashu.search.places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
